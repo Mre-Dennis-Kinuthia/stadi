@@ -8,7 +8,7 @@ body {
     width: 250px;
     position: fixed;
     top: 0;
-    left: -250px;
+    left: 0px;
     background-color: #333;
     overflow-x: hidden;
     transition: 0.3s;
@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 150px;
 }
 
 .nav-btn {
@@ -44,6 +44,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: 0.2s;
+    margin-top: 50px;
 }
 
 .nav-btn:hover {
@@ -75,4 +76,77 @@ body {
     margin-left: 0;
     transition: 0.3s;
     padding: 20px;
+}
+.top-content {
+    position: absolute;
+    top: 10%;
+}
+.temp-card{
+    position: absolute;
+    top: 5%;
+    left: 275px;
+    height: 75px;
+    width: 200px;
+    background-color: blue;
+}
+
+.humid-card{
+    position: absolute;
+    top: 5%;
+    left: 500px;
+    height: 75px;
+    width: 200px;
+    background-color: #444;
+}
+
+.moist-card{
+    position: absolute;
+    top: 5%;
+    left: 725px;
+    height: 75px;
+    width: 200px;
+    background-color: #444;
+}
+
+.sun-card{
+    position: absolute;
+    top: 5%;
+    left: 950px;
+    height: 75px;
+    width: 200px;
+    background-color: #444;
+}
+
+.main-chart-card{
+    position: absolute;
+    top: 25%;
+    left: 300px;
+    height: 350px;
+    width: 875px;
+    background-color: #fff;
+}
+
+.temp-chart {
+    height: 250px;
+    width: 400px;
+    background-color: #444;
+    position: absolute;
+    left:0;
+}
+
+.humid-chart{
+    height: 250px;
+    width: 400px;
+    background-color: #444;
+    position: absolute;
+    left: 475px;
+}
+
+.alerts-card{
+    position: absolute;
+    height: 150px;
+    width: 875px;
+    background-color: blue;
+    top: 65%;
+    left: 300px;
 }
