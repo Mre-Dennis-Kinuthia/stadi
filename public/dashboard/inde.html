@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arduino Data Display</title>
+  <script src="https://cdn.socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+  <h1>Arduino Data Display</h1>
+  <div id="sensorData"></div>
+
+  <script>
+    const socket = io();
+
+    // Listen for data from the server
+    socket.on('arduinoData', (data) => {
+      document.getElementById('sensorData').innerHTML = `<p>${data}</p>`;
+    });
+  </script>
+</body>
+</html>
