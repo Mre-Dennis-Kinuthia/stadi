@@ -64,7 +64,25 @@
     position: absolute;
     top: 0;
     background-color: grey;
-    height: 60%;
+    height: 80%;
     width: 100%;
-    
+    border-radius: 5px;
+}
+
+#send-button{
+    position: absolute;
+    top: 92.5%;
+    left: 30%;
+    height: 50px;
+    width: 100px;
+    backgound-color: blue;
+    border: 5px;
+}
+
+input[type="text"]{
+    position: absolute;
+    top: 82%;
+    height: 50px;
+    width: 100%;
+    background-color: aquamarine;
 }

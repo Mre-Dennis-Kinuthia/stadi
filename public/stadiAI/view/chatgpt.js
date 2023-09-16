@@ -19,7 +19,7 @@ function sendMessage() {
         },
         data: JSON.stringify({
             prompt: userMessage,
-            max_tokens: 50 // Adjust as needed
+            max_tokens: 150 // Adjust as needed
         }),
         success: function (response) {
             const chatMessage = response.choices[0].text;
