@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Stadi</title>
+    <script src="chatgpt.js"></script>
 </head>
 <body>
     <div class="opencv-card">
-        <div class="image-card">
+        <div class="image-card" id="image-card">
 
         </div>
         <div class="issue-card">
@@ -18,11 +19,14 @@
 
         </div>
         <div class="image-input-card"> <!---IMPLIMENT DRAG AND DROP FUNCTION ---->
-            <input type="image">
+            <input type="file" accept="image/*">
         </div>
     </div> 
     <div class="stadichat">
-        
+        <div id="chat-output"></div> <!-- This div will display the chat messages -->
+            <input type="text" id="user-input" placeholder="Type your message..."> <!-- User input field -->
+        <button id="send-button">Send</button> <!-- Send button -->
     </div>
 </body>
+<script src="script.js"></script>
 </html>
