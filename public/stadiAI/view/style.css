@@ -60,3 +60,11 @@
     border-radius: 5px;
     border: 2px solid lightgrey;
 }
+#chat-output{
+    position: absolute;
+    top: 0;
+    background-color: grey;
+    height: 60%;
+    width: 100%;
+    
+}
